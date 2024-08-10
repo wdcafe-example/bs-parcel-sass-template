@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NPM 프로로젝트 생성</title>
+  <link rel="stylesheet" href="./scss/main.scss">
+</head>
+
+<body>
+
+  <div class="container pt-5">
+    <h1>Bootstrap NPM</h1>
+
+    <p><img src="./images/bs-logo.png" alt="부트스트랩 로고"></p>
+
+    <button type="button" class="btn btn-primary">Primary</button>
+    <div class="dropdown my-5">
+      <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <!-- <button class="btn btn-custom-color1 dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"> -->
+        Dropdown button
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Action</a></li>
+        <li><a class="dropdown-item" href="#">Another action</a></li>
+        <li><a class="dropdown-item" href="#">Something else here</a></li>
+      </ul>
+    </div>
+    <div class="spinner-border text-secondary" role="status">
+      <span class="visually-hidden">Loading...</span>
+    </div>
+    <div class="mt-5">
+      <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top"
+        data-bs-title="Tooltip on top">
+        Tooltip on top
+      </button>
+    </div>
+    <div class="mt-5">
+      <!-- Button trigger modal -->
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Launch demo modal
+      </button>
+
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <h2>Title</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, eligendi harum culpa animi porro suscipit at doloremque quod. Saepe natus facilis illo corporis eos id autem accusamus, voluptas repellat consequuntur?
+              Dicta beatae commodi sunt debitis, iure modi corrupti earum suscipit vel aperiam magnam molestias neque, nihil consequatur ullam! Necessitatibus ipsum possimus doloremque asperiores, voluptas sunt itaque quae quas in ullam.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- jQuery Insert -->
+  <script src='./js/jquery-2.2.4.min.js'></script>
+  <script src="./js/main.js"></script>
+</body>
+
+</html>
